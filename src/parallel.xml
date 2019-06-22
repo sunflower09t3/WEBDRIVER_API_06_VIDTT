@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="2">
+	<test name="Run on Firefox browser">
+	<parameter name = "browser type" value = "Firefox"></parameter>
+		<classes>
+			<class name="TestNG.TestNG_06_Parallel"></class>
+		</classes>
+	</test>
+	<test name="Run on Chrome browser">
+	<parameter name = "browser type" value = "Chrome"></parameter>
+		<classes>
+			<class name="TestNG.TestNG_06_Parallel"></class>
+		</classes>
+	</test>
+</suite>

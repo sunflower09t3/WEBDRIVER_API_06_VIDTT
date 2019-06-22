@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<test name="Test">
+	<parameter name = "browser type" value = "Firefox"></parameter>
+		<classes>
+			<class name="TestNG.TestNG_07_Loop"></class>
+		</classes>
+	</test>
+</suite>

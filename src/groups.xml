@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="TestNG.TestNG_02_Groups"/>
+    </classes>
+    
+    <groups>
+    	<run>
+    		<include name="regression test"></include>
+    		<exclude name="smoke test"></exclude>
+    	</run>
+    </groups> 
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

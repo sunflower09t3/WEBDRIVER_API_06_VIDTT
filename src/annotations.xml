@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Annotations experiment">
+	<test name="Run method 1 only">
+		<classes>
+			<class name="TestNG.TestNG_01_Annotations">
+				<methods>
+					<include name="testMethod1"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Run method 2 only">
+		<classes>
+			<class name="TestNG.TestNG_01_Annotations">
+				<methods>
+					<include name="testMethod2"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
